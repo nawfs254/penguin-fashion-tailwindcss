@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Penguin Fashion</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <style>
+        /* custom css */
+
+        .font-bebas{
+            font-family: 'Bebas Neue', sans-serif;
+        }
+
+        .font-roboto{
+            font-family: 'Roboto', sans-serif;
+        }
+    </style>
+</head>
+
+<body class="font-roboto">
+    <header class="bg-[#FFFBF0]">
+        <nav class="w-4/5 mx-auto py-8 flex items-center justify-between mb-6 gap-5 md:flex-col  lg:flex-row">
+            <img src="./resources/icons/logo.png" alt="" class="w-52 lg:w-96 h-auto">
+
+            <ul class="hidden items-center gap-5 md:flex md:flex-row lg:flex lg:flex-row lg:gap-12">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Product</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+
+            <img src="./resources/icons/bars.svg" alt="" class="w-7 rotate-180 lg:hidden md:hidden">
+
+        </nav>
+
+        <div class="w-4/5 mx-auto py-8 flex flex-col items-center justify-between gap-8 md:flex-row lg:flex-row">
+            <div class="space-y-4">
+                <h1 class="text-6xl font-bebas"><span class="text-[#FABE4C]">Be the penguins</span><br>of winter</h1>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                <button
+                    class="flex font-medium bg-gradient-to-b from-[#A4BC46] to-[#85A019] gap-2 items-center py-4 px-8 rounded-lg uppercase text-white"><img src="./resources/icons/shopping-cart 1.png" alt="" class="w-9"> Buy Now</button>
+            </div>
+
+            <img src="./resources/images/model.png" alt="" class="w-full md:w-1/2 lg:w-2/5">
+        </div>
+    </header>
+    <main class="h-96"></main>
+</body>
+
+</html>
